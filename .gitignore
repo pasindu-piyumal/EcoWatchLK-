@@ -1,0 +1,81 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and Editor
+# ==============================
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ==============================
+# Machine Learning Models
+# ==============================
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.joblib
+*.pkl
+*.engine
+
+# ==============================
+# YOLO Training Outputs
+# ==============================
+runs/
+wandb/
+mlruns/
+
+# ==============================
+# Datasets
+# ==============================
+Dataset/
+EcoWatch-Final-YOLO/
+EcoWatch-Negative-Candidates/
+EcoWatch-Negative-Review/
+EcoWatch-Smoke-Converted/
+-Smoke-Vehicles-Detection--2/
+
+# ==============================
+# Test Data
+# ==============================
+test_images/
+test_video/
+
+# ==============================
+# Generated Outputs
+# ==============================
+outputs/*
+!outputs/.gitkeep
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
